@@ -1,0 +1,19 @@
+@import "./globals/colours.scss";
+@import "./globals/mixins.scss";
+@import "./partials/_login.scss";
+@import "./partials/_header.scss";
+@import "./partials/_logged-in-page.scss";
+@import "./partials/_edit-site-information.scss";
+
+
+.inner-content-spacer{
+  width: 90%;
+  margin: auto;
+}
+
+@media only screen and (min-width : 992px) {
+  .inner-content-spacer{
+    width: 80%;
+    margin: auto;
+  }
+}
