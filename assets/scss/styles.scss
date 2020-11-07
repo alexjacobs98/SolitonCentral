@@ -1,19 +1,12 @@
-@import "./globals/colours.scss";
-@import "./globals/mixins.scss";
+*{
+  margin: 0;
+  padding: 0;
+}
+
+@import "reset.scss";
+@import "mixins.scss";
+@import "colours.scss";
+@import "./partials/_navbar.scss";
+@import "./partials/_site-listings.scss";
 @import "./partials/_login.scss";
-@import "./partials/_header.scss";
-@import "./partials/_logged-in-page.scss";
-@import "./partials/_edit-site-information.scss";
-
-
-.inner-content-spacer{
-  width: 90%;
-  margin: auto;
-}
-
-@media only screen and (min-width : 992px) {
-  .inner-content-spacer{
-    width: 80%;
-    margin: auto;
-  }
-}
+@import "./partials/_options-menu.scss";

@@ -16,7 +16,6 @@ function minify() {
   return gulp.src('./assets/styles/styles.css')
     .pipe(cleanCSS({compatibility: 'ie8'}))
     .pipe(gulp.dest('./dist/styles'));
-
 }
 
 

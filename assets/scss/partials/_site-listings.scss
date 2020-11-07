@@ -1,0 +1,52 @@
+.site-lisings-heading{
+  .container{
+    .row{
+      h1{
+        font-family: 'Russo One', sans-serif;
+        color: black;
+        font-size: 35px;
+        font-weight: bold;
+      }
+    }
+  }
+}
+
+.site-list-table{
+  .container{
+    padding: 0;
+    .row{
+      padding: 0;
+      margin: 0;
+      table{
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        tr{
+          th{
+            margin: auto;
+            font-weight: bolder;
+            font-size: 20px;
+            border-bottom: 5px solid black;
+            padding: 10px 0;
+            font-family: 'Russo One', sans-serif;
+          }
+          td{
+            height: 50px;
+            padding: 20px 0;
+            border-bottom: 1px solid black;
+            font-family: 'Inter', sans-serif;
+            a{
+              background-color: $SucessGreen;
+              padding: 10px 40px;
+              border-radius: 4px;
+              color: white;
+              &:hover{
+                text-decoration: none;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

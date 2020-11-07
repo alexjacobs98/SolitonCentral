@@ -1,16 +1,8 @@
 {
   "name": "solitoncentral",
   "version": "1.0.0",
-  "description": "scss compiler ",
+  "description": "",
   "main": "index.js",
-  "dependencies": {
-    "browser-sync": "^2.26.12",
-    "gulp": "^4.0.2",
-    "gulp-clean-css": "^4.3.0",
-    "gulp-sass": "^4.1.0",
-    "node": "^14.13.1"
-  },
-  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -23,5 +15,11 @@
   "bugs": {
     "url": "https://github.com/alexjacobs98/SolitonCentral/issues"
   },
-  "homepage": "https://github.com/alexjacobs98/SolitonCentral#readme"
+  "homepage": "https://github.com/alexjacobs98/SolitonCentral#readme",
+  "dependencies": {
+    "browser-sync": "^2.26.13",
+    "gulp": "^4.0.2",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-sass": "^4.1.0"
+  }
 }
